@@ -11,11 +11,16 @@
     "@testing-library/user-event": "^12.6.0",
     "bootstrap": "^4.5.3",
     "react": "^17.0.1",
+    "react-bootstrap": "^1.4.0",
     "react-dom": "^17.0.1",
+    "react-lightbox-component": "^1.2.1",
     "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.1",
     "simple-react-lightbox": "^3.5.1",
     "web-vitals": "^0.2.4"
+  },
+  "devDependencies": {
+    "node-sass": "^4.13.0"
   },
   "scripts": {
     "start": "react-scripts start",

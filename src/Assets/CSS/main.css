@@ -5,3 +5,20 @@
 .nav-link {
     color: white;
 }
+
+.justify-text {
+    text-align: justify;
+}
+
+.card-title {
+    color: green;
+}
+
+.article-text {
+    margin-top: 5%;
+}
+
+.card {
+    width: 18rem,
+}
+
