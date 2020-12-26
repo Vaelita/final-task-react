@@ -1,8 +1,8 @@
 
 function Registration() {
     return (
-        <div>
-            This is registration
+        <div className="container">
+            
         </div>
     ); 
 }

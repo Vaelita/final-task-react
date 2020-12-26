@@ -14,11 +14,28 @@
     color: green;
 }
 
+.card-text {
+    margin-top: 3%;
+}
+
 .article-text {
     margin-top: 5%;
 }
 
 .card {
-    width: 18rem,
+    width: 18rem;
+}
+
+.chat-container {
+    height: 300px;
+}
+
+.google-map-code {
+    width: "350";
+    height: "350";
+}
+
+.gmap-canvas {
+    margin: 1% 0% 10% 0% ;
 }
 

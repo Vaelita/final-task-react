@@ -1,9 +1,11 @@
 
-
 function Footer() {
     return (
-        <div>
-            This is le Footer!
+        <div className="pt-4 pb-4 bg-dark text-light">
+            <div className="container">
+                <p>&copy; 2020 All rights reserved</p>
+                <p>This page is a guide to your relaxation.</p>
+            </div>
         </div>
     ) 
 }
