@@ -1,5 +1,8 @@
 import { Card, Button } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
+import supportcat from "../Assets/Images/supportcat.jpg";
+import comfort from "../Assets/Images/comfort.jpg";
+import moodatm from "../Assets/Images/moodatm.jpg";
 
 function Cards() {
     return (
@@ -8,42 +11,39 @@ function Cards() {
             <div className="row">
             <div className="col-lg-4 col-md-6 col-sm-12">
                 <Card className="card border border-dark">
-                    <Card.Img variant="top" src="holder.js/100px180" />
+                    <Card.Img variant="top" src={supportcat} />
                     <Card.Body>
-                        <Card.Title>Card Title</Card.Title>
+                        <Card.Title><Link className="card-title" to="/article">Support</Link></Card.Title>
                         <Card.Text>
-                            Some quick example text to build on the card title and make up the bulk of
-                            the card's content.
+                            Let's just take a little time to discuss the importance of a favorable
+                            support in your personal space.
                         </Card.Text>
-                        <Button variant="primary">Go somewhere</Button>
                     </Card.Body>
                 </Card>
             </div>
 
             <div className="col-lg-4 col-md-6 col-sm-12">
                 <Card className="card border border-dark">
-                    <Card.Img variant="top" src="holder.js/100px180" />
+                    <Card.Img variant="top" src={comfort} />
                     <Card.Body>
-                        <Card.Title>Card Title</Card.Title>
+                        <Card.Title><Link className="card-title" to="/article">Comfort</Link></Card.Title>
                         <Card.Text>
-                            Some quick example text to build on the card title and make up the bulk of
-                            the card's content.
+                            When you think you're alone, it's not really alone time. 
+                            Quality alone time is when you focus this attention inward.
                     </Card.Text>
-                        <Button variant="primary">Go somewhere</Button>
                     </Card.Body>
                 </Card>
             </div>
 
             <div className="col-lg-4 col-md-6 col-sm-12">
                 <Card className="card border border-dark">
-                    <Card.Img variant="top" src="holder.js/100px180" />
+                    <Card.Img variant="top" src={moodatm} />
                     <Card.Body>
-                        <Card.Title>Card Title</Card.Title>
+                        <Card.Title><Link className="card-title" to="/article">Atmosphere</Link></Card.Title>
                         <Card.Text>
-                            Some quick example text to build on the card title and make up the bulk of
-                            the card's content.
+                            Taking a deep breath proves makes you calmer, minimizes stress, and 
+                            provides the body a healthy dose of oxygen.
                         </Card.Text>
-                        <Button variant="primary">Read more</Button>
                     </Card.Body>
                 </Card>
             </div>

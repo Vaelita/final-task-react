@@ -11,7 +11,7 @@ function ControlledTabs() {
 
   return (
     <Tabs
-      className="bg-success mt-5"
+      className="bg-green mt-5"
       id="controlled-tab-example"
       activeKey={key}
       onSelect={(k) => setKey(k)}

@@ -5,7 +5,7 @@ import grumpy from "../Assets/Images/grumpyy.png";
 function Header() {
     return (
         <div>
-            <ul className="nav navbar-dark bg-dark">
+            <ul className="nav navbar-dark bg-green">
                 <li class="nav-item">
                     <Link className="nav-link" to="/" exact activeClassName="active"><img src={grumpy} alt="grumpy" /></Link>
                 </li>  

@@ -1,5 +1,9 @@
-import { useState } from 'react'
-import '../Assets/CSS/lightBox.css'
+import { useState } from 'react';
+import '../Assets/CSS/lightBox.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faAngleLeft } from '@fortawesome/free-solid-svg-icons';
+import { faAngleRight } from '@fortawesome/free-solid-svg-icons';
+import meditate from '../Assets/Images/meditate.jpg';
 
 //IMAGES
 //you can also import a local file, the syntax would look like:
@@ -25,14 +29,7 @@ const images = [image1, image2, image3, image4, image5, image6];
 //MAIN APP COMPONENT
 function LightBox() {
   return (
-    <div className="App">
-      <h1>Simple React Lightbox</h1>
-      <p>
-        featuring adorable animal pictures from{" "}
-        <a href="https://unsplash.com/" target="_blank" rel="noreferrer">
-          unsplash
-        </a>
-      </p>
+    <div>
       <ImageGallery />
     </div>
   );
@@ -94,9 +91,9 @@ function ImageGallery() {
       {
         lightboxDisplay ? 
         <div id="lightbox" onClick={hideLightBox}>
-          <button onClick={showPrev}>⭠</button>
+          <button onClick={showPrev}><FontAwesomeIcon icon={faAngleLeft}/></button>
           <img id="lightbox-img" src={imageToShow} alt=""></img>
-          <button onClick={showNext}>⭢</button>
+          <button onClick={showNext}><FontAwesomeIcon icon={faAngleRight}/></button>
         </div>
        : ""
       }

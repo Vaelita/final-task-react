@@ -4,7 +4,6 @@ import bathrelax from '../Assets/Images/bathrelax.jpg';
 import LightBox from '../Components/LightBox';
 
 
-
 function Article() {
     return (
         <div className="container">

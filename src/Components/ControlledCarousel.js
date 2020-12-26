@@ -22,8 +22,7 @@ function ControlledCarousel() {
             alt="First slide"
           />
           <Carousel.Caption>
-            <h3>First slide label</h3>
-            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+            <h3>Set your workspace</h3>
           </Carousel.Caption>
         </Carousel.Item>
 
@@ -34,8 +33,7 @@ function ControlledCarousel() {
             alt="Second slide"
           />
           <Carousel.Caption>
-            <h3>Second slide label</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <h3>Eat healthy foods</h3>
           </Carousel.Caption>
         </Carousel.Item>
 
@@ -46,10 +44,7 @@ function ControlledCarousel() {
             alt="Third slide"
           />
           <Carousel.Caption>
-            <h3>Third slide label</h3>
-            <p>
-              Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-            </p>
+            <h3>Decorate your home</h3>
           </Carousel.Caption>
         </Carousel.Item>
 
@@ -60,8 +55,7 @@ function ControlledCarousel() {
             alt="Fourth slide"
           />
           <Carousel.Caption>
-            <h3>Fourth slide label</h3>
-            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+            <h3>Manage your space</h3>
           </Carousel.Caption>
         </Carousel.Item>
 
@@ -72,8 +66,7 @@ function ControlledCarousel() {
             alt="Fifth slide"
           />
           <Carousel.Caption>
-            <h3>Fifth slide label</h3>
-            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+            <h3>Remember to find time with your friends</h3>
           </Carousel.Caption>
         </Carousel.Item>
 

@@ -52,7 +52,7 @@ function Chat() {
                                     <textarea class="form-control" id="message"></textarea>
                                 </div>
                                 <div>
-                                    <button onClick={addTask}>Add task</button>
+                                    <button className="btn btn-success" onClick={addTask}>Add task</button>
                                 </div>
                             </div>
                         </div>
