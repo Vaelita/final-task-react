@@ -1,12 +1,14 @@
 #root {
-    text-align: center;
+    /* text-align: center; */
     font-family: 'Roboto', sans-serif;
   }
   
   .image-card {
-    width: 30vw;
-    height: 30vw;
+    /* width: 30vw;
+    height: 30vw; */
     object-fit: cover;
+    width: 175px;
+    height: 115px;
   }
   
   #lightbox-img {

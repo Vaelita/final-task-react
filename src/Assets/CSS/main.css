@@ -10,7 +10,7 @@
     text-align: justify;
 }
 
-.card-title {
+.card-title, .form-group {
     color: green;
 }
 
@@ -39,6 +39,11 @@
     margin: 1% 0% 10% 0% ;
 }
 
-body {
-    background: linear-gradient(to right, #76b852, #8dc26f)
+.border {
+    height: 300px;
+    border-color: green;
 }
+
+/* body {
+    background: linear-gradient(to right,#139629, #8dc26f)
+} */

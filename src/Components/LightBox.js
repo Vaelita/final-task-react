@@ -4,22 +4,22 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faAngleLeft } from '@fortawesome/free-solid-svg-icons';
 import { faAngleRight } from '@fortawesome/free-solid-svg-icons';
 import meditate from '../Assets/Images/meditate.jpg';
+import kitty from "../Assets/Images/kittymain.jpg";
+import readpic from "../Assets/Images/readpic.jpg";
+import bathrelax from "../Assets/Images/bathrelax.jpg";
+import settle from "../Assets/Images/settle.jpg";
+import space from "../Assets/Images/space.jpg";
+import greens from "../Assets/Images/greens.jpg";
 
 //IMAGES
 //you can also import a local file, the syntax would look like:
 //import image1 from './images/imagename.jpg'
-const image1 =
-  "https://images.unsplash.com/photo-1497752531616-c3afd9760a11?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2100&q=80";
-const image2 =
-  "https://images.unsplash.com/photo-1470093851219-69951fcbb533?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2100&q=80";
-const image3 =
-  "https://images.unsplash.com/photo-1447684808650-354ae64db5b8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2094&q=80";
-const image4 =
-  "https://images.unsplash.com/photo-1425082661705-1834bfd09dca?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2110&q=80";
-const image5 =
-  "https://images.unsplash.com/photo-1494256997604-768d1f608cac?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2301&q=80";
-const image6 =
-  "https://images.unsplash.com/photo-1500694216671-a4e54fc4b513?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2092&q=80";
+const image1 = readpic;
+const image2 = bathrelax;
+const image3 = meditate;
+const image4 = settle;
+const image5 = space;
+const image6 = greens;
 
 
 //IMAGE ARRAY
@@ -30,7 +30,13 @@ const images = [image1, image2, image3, image4, image5, image6];
 function LightBox() {
   return (
     <div>
+      <div>
+      <img className="" style={{width: "30"}} alt="" src={kitty} />
+    </div>
+
+    <div>
       <ImageGallery />
+    </div>
     </div>
   );
 }
@@ -44,8 +50,10 @@ function ImageGallery() {
   const [lightboxDisplay, setLightBoxDisplay] = useState(false);
   
   //looping through our images array to create img elements
-  const imageCards = images.map((image) => (
-    <img className="image-card" onClick={() => showImage(image)} src={image} alt="" />
+ const imageCards = images.map((image) => (
+    <div className="col p-0">
+      <img className="image-card" onClick={() => showImage(image)} src={image} alt="" />
+    </div>
   ));
 
   //function to show a specific image in the lightbox, amd make lightbox visible
@@ -86,7 +94,7 @@ function ImageGallery() {
 
   return (
     <>
-      <div>{imageCards}</div>
+      <div className="row">{imageCards}</div>
       
       {
         lightboxDisplay ? 

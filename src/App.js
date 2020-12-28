@@ -29,7 +29,7 @@ function App() {
                 <Route path="/chat">
                     <Chat />
                 </Route>
-                <Route path="/registration">
+                <Route path="/register">
                     <Registration />
                 </Route>
                 <Route path="/about-us">
