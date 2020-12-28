@@ -12,7 +12,7 @@ function ArticleTexts() {
                     <h5 className="card-title">Remember to breathe</h5>
                     <p className="justify-text">Breathing techniques are a quick and highly effective way to regulate our nervous system. Try to 
                         focus on breathing in for five counts and breathing out for five counts, and repeat several times. Because, remember, 
-                        <u> everything will be okay</u>.</p>
+                         <u>everything will be okay</u>.</p>
                     <h5 className="card-title">Alone time is important</h5>
                     <p className="justify-text">Meditation is a universal favorite for relaxing when you work from home. It lowers stress levels, 
                         and brings calmness to your mind. Regular meditation practice helps people be able to shift their focus to the important 

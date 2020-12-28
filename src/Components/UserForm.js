@@ -66,7 +66,7 @@ class UserForm extends React.Component {
                             <ErrorMessage name="confirmPassword" component="div" className="invalid-feedback" />
                         </div>
                         <div class="form-group">
-                            <label>Title</label>
+                            <label>Country</label>
                             <Field name="country" as="select" className={'form-control' + (errors.country && touched.country ? ' is-invalid' : '')}>
                                 <option value=""></option>
                                 <option value="catopia">Catopia</option>

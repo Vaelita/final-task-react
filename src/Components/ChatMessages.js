@@ -37,7 +37,7 @@ function ChatMessages() {
         <div className="container mt-4 mb-5">
             <div>
                 <div>
-                    <div className="col border border-dark">
+                    <div className="col border chat-border">
                         <div>
                             {messagesElements}
                         </div>
