@@ -7,7 +7,7 @@ function Home() {
             <ControlledCarousel />
             <section>
                 <div className="container mt-2 mb-2 card-title">
-                    <p>Most recent articles:</p>
+                    <p><strong>Most recent articles:</strong></p>
                 </div>
             </section>
             <Cards />

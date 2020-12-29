@@ -6,8 +6,8 @@ function AboutUs() {
     return (
         <div>
             <ControlledTabs />
-            <div className="container mt-3 text-left">
-                <p>Contacts:</p>
+            <div className="container mt-3 card-title">
+                <p><strong>Contacts:</strong></p>
             </div>
             <Contacts />
         </div>

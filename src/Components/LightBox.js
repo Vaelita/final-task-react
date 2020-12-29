@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faAngleLeft } from '@fortawesome/free-solid-svg-icons';
 import { faAngleRight } from '@fortawesome/free-solid-svg-icons';
 import meditate from '../Assets/Images/meditate.jpg';
-import kitty from "../Assets/Images/kittymain.jpg";
+import kitty from "../Assets/Images/sphynx.jpg";
 import readpic from "../Assets/Images/readpic.jpg";
 import bathrelax from "../Assets/Images/bathrelax.jpg";
 import settle from "../Assets/Images/settle.jpg";

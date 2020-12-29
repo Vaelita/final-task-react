@@ -5,7 +5,7 @@ function Article() {
     return (
         <div className="container">
             <div className="row">
-                <div className="col mt-3 mb-3">
+                <div className="col mb-3">
                     <LightBox />
                 </div>
 
