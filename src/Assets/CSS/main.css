@@ -44,6 +44,11 @@
     border-color: green;
 }
 
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+    color: white !important;
+    background-color: limegreen!important
+}
+
 /* body {
     background: linear-gradient(to right,#139629, #8dc26f)
 } */

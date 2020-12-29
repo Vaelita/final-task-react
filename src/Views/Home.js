@@ -3,7 +3,7 @@ import ControlledCarousel from "../Components/ControlledCarousel";
 
 function Home() {
     return (
-        <div className="mt-2">
+        <div>
             <ControlledCarousel />
             <section>
                 <div className="container mt-2 mb-2 card-title">
